@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GaziProje</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username"> ADINIZ : </string>
+    <string name="nationalId"> T.C : </string>
+    <string name="bloodType"> KAN GRUBU: </string>
+</resources>

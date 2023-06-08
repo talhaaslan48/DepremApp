@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF0000" /> <!-- İsteğe bağlı: Düğmenin arka plan rengini belirleyebilirsiniz -->
+    <corners android:radius="350dp" /> <!-- Düğmenin yuvarlaklığını ayarlar, radius değerini istediğiniz gibi değiştirebilirsiniz -->
+</shape>

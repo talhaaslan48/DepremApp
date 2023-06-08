@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:background="@drawable/orange1"
+    android:layout_height="match_parent"
+    tools:context=".DepremScreen">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="294dp"
+        android:layout_height="43dp"
+        android:text=" Kesinlikle panik yapmayınız."
+        android:drawableLeft="@drawable/baseline_circle_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/videoView"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="294dp"
+        android:layout_height="43dp"
+        android:text=" Sabitlenmemiş dolap, raf, pencere vb. eşyalardan uzak durunuz"
+        android:drawableLeft="@drawable/baseline_circle_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/textView4"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.588"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="292dp"
+        android:layout_height="77dp"
+        android:text=" Cam, pencere, dışarıya bakan duvar ve kapılardan, aydınlatma tesisatı veya armatürü gibi üzerinize düşecek her tür eşyadan uzak durun."
+        android:drawableLeft="@drawable/baseline_circle_24"
+        android:drawablePadding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/textView5"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.718"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="294dp"
+        android:layout_height="43dp"
+        android:text=" Sarsıntı sırasında binayı terk etmeye çalışmayın."
+        android:drawableLeft="@drawable/baseline_circle_24"
+        android:drawablePadding="10dp"
+        app:layout_constraintBottom_toTopOf="@id/textView8"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/textView6"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@id/textView6"
+        app:layout_constraintTop_toBottomOf="@id/textView6"
+        app:layout_constraintVertical_bias="0.829"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="294dp"
+        android:layout_height="43dp"
+        android:text=" Balkona çıkmayın."
+        android:drawableLeft="@drawable/baseline_circle_24"
+        android:drawablePadding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@id/textView7"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@id/textView7"
+        app:layout_constraintTop_toBottomOf="@id/textView7"
+        app:layout_constraintVertical_bias="0.936"/>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="410dp"
+        android:layout_height="319dp"
+        app:layout_constraintBottom_toTopOf="@id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
